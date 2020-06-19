@@ -32,13 +32,3 @@ def get_scientific_name(name):
     response = requests.post('https://www.birdguides.com/gallery/GetSpeciesByNameForGallery', headers=headers, cookies=cookies, data=data)
     return response.text
 
-def search_duck_duck_go_img(search_term):
-   search_term = search_term.replace(' ', '+')
-   search_string = 'https://duckduckgo.com/?q=hooded+warbler&atb=v1-1&iax=images&ia=images'
-   print('search_string')
-   print(search_string)
-   response = requests.get(search_string)
-   print(response)
-   if response.status_code == 200:
-       print('yeah')
-       print(response.text)

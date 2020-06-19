@@ -3,6 +3,8 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import pandas as pd
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 from bs4 import BeautifulSoup
+from tqdm import tqdm
+import urllib.request
 
 headers = {
     'authority': 'www.birdguides.com',
@@ -18,6 +20,18 @@ headers = {
     'referer': 'https://www.birdguides.com/gallery/birds/Anser-albifrons/?RarityId=1&Image=True&Video=True&SortBy=Unknown',
     'accept-language': 'en-US,en;q=0.9',
     'cookie': '',
+}
+
+img_headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:77.0) Gecko/20100101 Firefox/77.0',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'If-Modified-Since': '',
+    'If-None-Match': '"14fdb6b57c20d61:0"',
+    'Cache-Control': 'max-age=0',
+    'TE': 'Trailers',
 }
 
 def get_bird_images(scientific_name, species_id ,page):
@@ -40,24 +54,47 @@ def get_images_from_text(respone_text):
     img_tags = soup.findAll('img')
     img_src_list = []
     for img in img_tags:
-        # print('img tag')
-        # print(img)
         img_src = img.get('src')
-        # print('img src')
         img_src_list.append(img_src)
     return img_src_list
+
+def download_images_from_df(bird_df, file_to_save):
+    for i in tqdm(range(len(bird_df))):
+        scientific_name = bird_df['ScientificName'][i]
+        birdname = bird_df['birdname'][i]
+        english_name = bird_df['EnglishName'][i]
+        # use this to work out the number of pages
+        count = bird_df['Count'][i]
+        id = bird_df['TaxonomyId'][i]
+
+        number_of_pages = int(int(count) / 16)
+        if number_of_pages == 0:
+            number_of_pages = 1
+        
+        img_count = 0
+        for i in range(number_of_pages):
+            page_count = i + 1
+            image_src = get_bird_images(scientific_name, id, page_count)
+            image_links = get_images_from_text(image_src.text)
+            for link in image_links:
+                img_name = file_to_save + '/' + english_name.to_lower().replace(' ', '') + '_' + scientific_name + '_' + str(img_count) + '.jpg'
+                f = open(img_name,'wb')
+                img_request = requests.get(link, stream=True, headers=img_headers)
+                f.write(img_request.content)
+                f.close()
+                img_count += 1
 
 # Example usage 
 # european_shag = get_bird_images('Phalacrocorax aristotelis', 23145, 1)
 # print(european_shag.text)
 
 # field fair
-field_fare = get_bird_images('Turdus pilaris', 47983, 1)
-field_fare_img_src = get_images_from_text(field_fare.text)
-print(field_fare_img_src)
+# field_fare = get_bird_images('Turdus pilaris', 47983, 1)
+# field_fare_img_src = get_images_from_text(field_fare.text)
+# print(field_fare_img_src)
 # print(field_fare.text)
 
-# 
-# bird_df = pd.read_csv("./bird_scientific.txt")
-# print(bird_df['birdname'])
+bird_df = pd.read_csv("./bird_scientific.txt")
+download_images_from_df(bird_df, './images')
+
 
