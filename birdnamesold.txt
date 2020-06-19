@@ -1,0 +1,618 @@
+Brant goose
+Red-breasted goose
+Canada goose
+Barnacle goose
+Cackling goose
+Snow goose
+Greylag goose
+Taiga bean goose
+Pink-footed goose
+Tundra bean goose
+Greater white-fronted goose
+Lesser white-fronted goose
+Mute swan
+Tundra swan
+Whooper swan
+Egyptian goose
+Ruddy shelduck
+Common shelduck
+Mandarin duck
+Baikal teal
+Garganey
+Blue-winged teal
+Northern shoveler
+Gadwall
+Falcated duck
+Eurasian wigeon
+American wigeon
+Mallard
+American black duck
+Northern pintail
+Common teal
+Green-winged teal
+Red-crested pochard
+Canvasback
+Redhead (duck)
+Common pochard
+Ferruginous duck
+Ring-necked duck
+Tufted duck
+Greater scaup
+Lesser scaup
+Steller's eider
+King eider
+Common eider
+Harlequin duck
+Surf scoter
+Velvet scoter
+White-winged scoter
+Common scoter
+Black scoter
+Long-tailed duck
+Bufflehead
+Common goldeneye
+Barrow's goldeneye
+Smew
+Hooded merganser
+Common merganser
+Red-breasted merganser
+Ruddy duck
+Red grouse
+Rock ptarmigan
+Black grouse
+Western capercaillie
+Red-legged partridge
+Grey partridge
+Common quail
+Common pheasant
+Golden pheasant
+Lady Amherst's pheasant
+Red-throated loon
+Black-throated loon
+Pacific loon
+Common loon
+Yellow-billed loon
+Black-browed albatross
+Atlantic yellow-nosed albatross
+Northern fulmar
+Fea's petrel
+Black-capped petrel
+Cory's shearwater
+Scopoli's shearwater
+Great shearwater
+Sooty shearwater
+Manx shearwater
+Yelkouan shearwater
+Balearic shearwater
+Barolo shearwater
+Wilson's storm petrel
+White-faced storm petrel
+European storm petrel
+Leach's storm petrel
+Swinhoe's storm petrel
+Red-billed tropicbird
+Northern gannet
+Red-footed booby
+Great cormorant
+Double-crested cormorant
+European shag
+Magnificent frigatebird
+Ascension frigatebird
+Dalmatian pelican
+Great bittern
+American bittern
+Little bittern
+Black-crowned night heron
+Green heron
+Squacco heron
+Chinese pond heron
+Cattle egret
+Little egret
+Snowy egret
+Great egret
+Grey heron
+Great blue heron
+Purple heron
+Glossy ibis
+Common spoonbill
+Black stork
+White stork
+Pied-billed grebe
+Little grebe
+Great crested grebe
+Red-necked grebe
+Horned grebe
+Black-necked grebe
+European honey buzzard
+Black kite
+Red kite
+White-tailed eagle
+Egyptian vulture
+Short-toed snake eagle
+Western marsh harrier
+Hen harrier
+Pallid harrier
+Montagu's harrier
+Northern goshawk
+Eurasian sparrowhawk
+Common buzzard
+Rough-legged buzzard
+Greater spotted eagle
+Golden eagle
+Osprey
+Lesser kestrel
+Common kestrel
+American kestrel
+Red-footed falcon
+Amur falcon
+Merlin (bird)
+Eurasian hobby
+Eleonora's falcon
+Gyr falcon
+Peregrine falcon
+Water rail
+Spotted crake
+Sora (bird)
+Little crake
+Baillon's crake
+Corn crake
+Common moorhen
+Western swamphen
+Allen's gallinule
+American purple gallinule
+Eurasian coot
+American coot
+Common crane
+Sandhill crane
+Little bustard
+Macqueen's bustard
+Great bustard
+Eurasian oystercatcher
+Black-winged stilt
+Pied avocet
+Eurasian stone-curlew
+Cream-colored courser
+Collared pratincole
+Oriental pratincole
+Black-winged pratincole
+Little ringed plover
+Ringed plover
+Semipalmated plover
+Killdeer
+Kentish plover
+Lesser sand plover
+Greater sand plover
+Caspian plover
+Eurasian dotterel
+American golden plover
+Pacific golden plover
+European golden plover
+Grey plover
+Sociable lapwing
+White-tailed lapwing
+Northern lapwing
+Great knot
+Red knot
+Sanderling
+Semipalmated sandpiper
+Western sandpiper
+Red-necked stint
+Little stint
+Temminck's stint
+Long-toed stint
+Least sandpiper
+White-rumped sandpiper
+Baird's sandpiper
+Pectoral sandpiper
+Sharp-tailed sandpiper
+Curlew sandpiper
+Stilt sandpiper
+Purple sandpiper
+Dunlin
+Broad-billed sandpiper
+Buff-breasted sandpiper
+Ruff (bird)
+Jack snipe
+Common snipe
+Wilson's snipe
+Great snipe
+Short-billed dowitcher
+Long-billed dowitcher
+Eurasian woodcock
+Black-tailed godwit
+Hudsonian godwit
+Bar-tailed godwit
+Little curlew
+Eskimo curlew
+Hudsonian whimbrel
+Eurasian whimbrel
+Eurasian curlew
+Upland sandpiper
+Terek sandpiper
+Common sandpiper
+Spotted sandpiper
+Green sandpiper
+Solitary sandpiper
+Grey-tailed tattler
+Spotted redshank
+Greater yellowlegs
+Common greenshank
+Lesser yellowlegs
+Marsh sandpiper
+Wood sandpiper
+Common redshank
+Ruddy turnstone
+Wilson's phalarope
+Red-necked phalarope
+Grey phalarope
+Pomarine skua
+Arctic skua
+Long-tailed skua
+Great skua
+Ivory gull
+Sabine's gull
+Black-legged kittiwake
+Slender-billed gull
+Bonaparte's gull
+Black-headed gull
+Little gull
+Ross's gull
+Laughing gull
+Franklin's gull
+Mediterranean gull
+Audouin's gull
+Pallas's gull
+Common gull
+Ring-billed gull
+Lesser black-backed gull
+European herring gull
+Yellow-legged gull
+Caspian gull
+American herring gull
+Iceland gull
+Slaty-backed gull
+Glaucous-winged gull
+Glaucous gull
+Great black-backed gull
+Aleutian tern
+Sooty tern
+Bridled tern
+Little tern
+Gull-billed tern
+Caspian tern
+Whiskered tern
+Black tern
+White-winged tern
+Cabot's tern
+Elegant tern
+Sandwich tern
+Royal tern
+Lesser crested tern
+Forster's tern
+Common tern
+Roseate tern
+Arctic tern
+Common guillemot
+Brunnich's guillemot
+Razorbill
+Great auk
+Black guillemot
+Long-billed murrelet
+Ancient murrelet
+Little auk
+Atlantic puffin
+Tufted puffin
+Pallas's sandgrouse
+Rock dove
+Stock dove
+Common wood pigeon
+Eurasian collared dove
+European turtle dove
+Oriental turtle dove
+Mourning dove
+Rose-ringed parakeet
+Great spotted cuckoo
+Common cuckoo
+Black-billed cuckoo
+Yellow-billed cuckoo
+Barn owl
+Eurasian scops owl
+Snowy owl
+Northern hawk-owl
+Little owl
+Tawny owl
+Long-eared owl
+Short-eared owl
+Tengmalm's owl
+European nightjar
+Red-necked nightjar
+Egyptian nightjar
+Common nighthawk
+Chimney swift
+White-throated needletail
+Common swift
+Pallid swift
+Pacific swift
+Alpine swift
+Little swift
+White-rumped swift
+Common kingfisher
+Belted kingfisher
+Blue-cheeked bee-eater
+European bee-eater
+European roller
+Hoopoe
+Eurasian wryneck
+European green woodpecker
+Yellow-bellied sapsucker
+Great spotted woodpecker
+Lesser spotted woodpecker
+Eastern phoebe
+Acadian flycatcher
+Alder flycatcher
+Eastern kingbird
+Yellow-throated vireo
+Philadelphia vireo
+Red-eyed vireo
+Golden oriole
+Brown shrike
+Isabelline shrike
+Red-backed shrike
+Long-tailed shrike
+Lesser grey shrike
+Great grey shrike
+Southern grey shrike
+Woodchat shrike
+Masked shrike
+Red-billed chough
+Eurasian magpie
+Eurasian jay
+Spotted nutcracker
+Jackdaw
+Rook (bird)
+Carrion crow
+Hooded crow
+Common raven
+Goldcrest
+Common firecrest
+European penduline tit
+Eurasian blue tit
+Great tit
+Crested tit
+Coal tit
+Willow tit
+Marsh tit
+Bearded tit
+Calandra lark
+Bimaculated lark
+Black lark
+Greater short-toed lark
+Lesser short-toed lark
+Crested lark
+Woodlark
+Eurasian skylark
+White-winged lark
+Shore lark
+Sand martin
+Tree swallow
+Purple martin
+Eurasian crag martin
+Barn swallow
+Common house martin
+Red-rumped swallow
+American cliff swallow
+Cetti's warbler
+Long-tailed tit
+Eastern crowned warbler
+Green warbler
+Greenish warbler
+Pale-legged leaf warbler
+Arctic warbler
+Pallas's warbler
+Yellow-browed warbler
+Hume's warbler
+Radde's warbler
+Dusky warbler
+Western Bonelli's warbler
+Eastern Bonelli's warbler
+Wood warbler
+Common chiffchaff
+Iberian chiffchaff
+Willow warbler
+Blackcap
+Garden warbler
+Barred warbler
+Lesser whitethroat
+Western Orphean warbler
+Eastern Orphean warbler
+Asian desert warbler
+Whitethroat
+Spectacled warbler
+Dartford warbler
+Marmora's warbler
+Rüppell's warbler
+Subalpine warbler
+Moltoni's warbler
+Sardinian warbler
+Pallas's grasshopper warbler
+Lanceolated warbler
+Common grasshopper warbler
+River warbler
+Savi's warbler
+Thick-billed warbler
+Booted warbler
+Sykes's warbler
+Eastern olivaceous warbler
+Olive-tree warbler
+Icterine warbler
+Melodious warbler
+Aquatic warbler
+Sedge warbler
+Paddyfield warbler
+Blyth's reed warbler
+Marsh warbler
+Eurasian reed warbler
+Great reed warbler
+Zitting cisticola
+Cedar waxwing
+Bohemian waxwing
+Wallcreeper
+Red-breasted nuthatch
+Eurasian nuthatch
+Common treecreeper
+Short-toed treecreeper
+Eurasian wren
+Northern mockingbird
+Brown thrasher
+Grey catbird
+Common starling
+Rosy starling
+White-throated dipper
+White's thrush
+Varied thrush
+Wood thrush
+Hermit thrush
+Swainson's thrush
+Grey-cheeked thrush
+Veery
+Siberian thrush
+Ring ouzel
+Common blackbird
+Eyebrowed thrush
+Dusky thrush
+Naumann's thrush
+Black-throated thrush
+Red-throated thrush
+Fieldfare
+Song thrush
+Redwing
+Mistle thrush
+American robin
+Rufous bush robin
+Asian brown flycatcher
+Spotted flycatcher
+European robin
+Siberian blue robin
+Rufous-tailed robin
+Siberian rubythroat
+White-throated robin
+Red-flanked bluetail
+Thrush nightingale
+Nightingale
+Bluethroat
+Red-breasted flycatcher
+Taiga flycatcher
+Collared flycatcher
+European pied flycatcher
+Black redstart
+Common redstart
+Moussier's redstart
+Common rock thrush
+Blue rock thrush
+Whinchat
+Siberian stonechat
+European stonechat
+Isabelline wheatear
+Northern wheatear
+Pied wheatear
+Black-eared wheatear
+Desert wheatear
+White-crowned wheatear
+Dunnock
+Alpine accentor
+Siberian accentor
+House sparrow
+Spanish sparrow
+Eurasian tree sparrow
+Rock sparrow
+Western yellow wagtail
+Citrine wagtail
+Grey wagtail
+White wagtail
+Richard's pipit
+Blyth's pipit
+Tawny pipit
+Olive-backed pipit
+Tree pipit
+Pechora pipit
+Meadow pipit
+Red-throated pipit
+Eurasian rock pipit
+Water pipit
+Buff-bellied pipit
+Common chaffinch
+Brambling
+European serin
+European greenfinch
+Citril finch
+European goldfinch
+Eurasian linnet
+Twite
+Eurasian siskin
+Lesser redpoll
+Mealy redpoll
+Arctic redpoll
+Two-barred crossbill
+Common crossbill
+Scottish crossbill
+Parrot crossbill
+Trumpeter finch
+Common rosefinch
+Pine grosbeak
+Eurasian bullfinch
+Hawfinch
+Evening grosbeak
+Snow bunting
+Lapland bunting
+Summer tanager
+Scarlet tanager
+Rose-breasted grosbeak
+Indigo bunting
+Eastern towhee
+Lark sparrow
+Savannah sparrow
+Song sparrow
+White-crowned sparrow
+White-throated sparrow
+Dark-eyed junco
+Black-faced bunting
+Pine bunting
+Yellowhammer
+Cirl bunting
+Rock bunting
+Ortolan bunting
+Cretzschmar's bunting
+Yellow-browed bunting
+Rustic bunting
+Chestnut-eared bunting
+Little bunting
+Yellow-breasted bunting
+Chestnut bunting
+Reed bunting
+Pallas' reed bunting
+Black-headed bunting
+Corn bunting
+Bobolink
+Brown-headed cowbird
+Baltimore oriole
+Red-winged blackbird
+Ovenbird
+Northern waterthrush
+Golden-winged warbler
+Black-and-white warbler
+Tennessee warbler
+Common yellowthroat
+Hooded warbler
+American redstart
+Cape May warbler
+Northern parula
+Magnolia warbler
+Bay-breasted warbler
+Blackburnian warbler
+Yellow warbler
+Chestnut-sided warbler
+Blackpoll warbler
+Yellow-rumped warbler
+Wilson's warbler
+Brown booby
+Paddyfield pipit
