@@ -59,13 +59,16 @@ def get_images_from_text(respone_text):
     return img_src_list
 
 def download_images_from_df(bird_df, file_to_save):
-    for i in tqdm(range(len(bird_df))):
-        scientific_name = bird_df['ScientificName'][i]
-        birdname = bird_df['birdname'][i]
-        english_name = bird_df['EnglishName'][i]
+    start_point = 117
+    for i in tqdm(range(len(bird_df[117:]))):
+        scientific_name = bird_df['ScientificName'][start_point].lower().replace(' ', '-')
+        birdname = bird_df['birdname'][start_point].lower().replace(' ', '-')
+        english_name = bird_df['EnglishName'][start_point].lower().replace(' ', '-')
         # use this to work out the number of pages
-        count = bird_df['Count'][i]
-        id = bird_df['TaxonomyId'][i]
+        count = bird_df['Count'][start_point]
+        id = bird_df['TaxonomyId'][start_point]
+
+        print('name: ' + str(birdname))
 
         number_of_pages = int(int(count) / 16)
         if number_of_pages == 0:
@@ -77,12 +80,22 @@ def download_images_from_df(bird_df, file_to_save):
             image_src = get_bird_images(scientific_name, id, page_count)
             image_links = get_images_from_text(image_src.text)
             for link in image_links:
-                img_name = file_to_save + '/' + english_name.to_lower().replace(' ', '') + '_' + scientific_name + '_' + str(img_count) + '.jpg'
-                f = open(img_name,'wb')
-                img_request = requests.get(link, stream=True, headers=img_headers)
-                f.write(img_request.content)
-                f.close()
-                img_count += 1
+                try:
+                    img_name = file_to_save + '/' + english_name + '_' + scientific_name + '_' + str(img_count) + '.jpg'
+                    f = open(img_name,'wb')
+                    img_request = requests.get(link, stream=True, headers=img_headers)
+                    f.write(img_request.content)
+                    f.close()
+                    img_count += 1
+                    pass
+                except:
+                    # print('This link didnt work....')
+                    # print(link)
+                    pass
+        start_point += 1
+        if start_point == len(bird_df):
+            break
+
 
 # Example usage 
 # european_shag = get_bird_images('Phalacrocorax aristotelis', 23145, 1)
